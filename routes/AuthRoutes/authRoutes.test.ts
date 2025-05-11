@@ -2,7 +2,7 @@ import request from 'supertest';
 import express from 'express';
 import bodyParser from 'body-parser';
 import authRoutes from './index';
-import { User } from '@/models/user/model';
+import { User } from '../../models/user/model';
 import bcryptjs from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 

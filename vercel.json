@@ -1,11 +1,4 @@
 {
     "version": 2,
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@vercel/node",
-            "config": { "outputDirectory": "dist" }
-        }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
 }

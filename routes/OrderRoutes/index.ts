@@ -4,8 +4,8 @@ import {
     getOrder,
     getAllOrders,
     updateOrder,
-} from '@/controllers/OrdersController';
-import { authCheck } from '@/middleware/authCheck';
+} from '../../controllers/OrdersController';
+import { authCheck } from '../../middleware/authCheck';
 
 const router = express.Router();
 

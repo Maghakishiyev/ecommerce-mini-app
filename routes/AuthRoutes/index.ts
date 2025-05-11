@@ -1,10 +1,10 @@
 import express, { Request, Response } from 'express';
 import bcryptjs from 'bcryptjs';
-import { User } from '@/models/user/model';
+import { User } from '../../models/user/model';
 import jwt from 'jsonwebtoken';
-import { hashPassword } from '@/utils/hashPassword';
-import { authCheck, ReqWithUser } from '@/middleware';
-import config from '@/configs';
+import { hashPassword } from '../../utils/hashPassword';
+import { authCheck, ReqWithUser } from '../../middleware';
+import config from '../../configs';
 
 const router = express.Router();
 
@@ -51,7 +51,7 @@ router.post('/signup', async (req: Request, res: Response) => {
             email,
             password: hashedPassword,
             phoneNumber,
-            fullName
+            fullName,
         });
 
         await user.save(); // Save the user first

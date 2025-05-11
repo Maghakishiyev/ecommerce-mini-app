@@ -1,7 +1,7 @@
 import express from "express";
-import { getProducts } from "@/controllers/productController";
-import { createProduct, updateProduct, deleteProduct } from "@/controllers/productController";
-import { isAdmin } from "@/middleware/adminMiddleware";
+import { getProducts } from "../../controllers/productController";
+import { createProduct, updateProduct, deleteProduct } from "../../controllers/productController";
+import { isAdmin } from "../../middleware/adminMiddleware";
 
 const router = express.Router();
 

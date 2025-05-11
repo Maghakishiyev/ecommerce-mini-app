@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import * as CartController from '@/controllers/CartController';  // Import the cart controller functions
-import { authCheck } from '@/middleware/authCheck';  // Assuming you have a middleware for authentication
+import * as CartController from '../../controllers/CartController';  // Import the cart controller functions
+import { authCheck } from '../../middleware/authCheck';  // Assuming you have a middleware for authentication
 
 const router = Router();
 

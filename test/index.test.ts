@@ -1,4 +1,4 @@
-import { authCheck } from '@/middleware/index';
+import { authCheck } from '../middleware/index';
 
 describe('index Middleware', () => {
     it('should call next function', () => {

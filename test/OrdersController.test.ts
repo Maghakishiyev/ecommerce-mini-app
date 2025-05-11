@@ -1,4 +1,4 @@
-import { createOrder } from '@/controllers/OrdersController';
+import { createOrder } from '../controllers/OrdersController';
 
 describe('OrdersController.test.ts Controller', () => {
     it('should handle requests correctly', () => {

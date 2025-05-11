@@ -1,4 +1,4 @@
-import { ICartItem } from "@/models/cartItem/interface";
+import { ICartItem } from "../cartItem/interface";
 
 export interface ICart extends Document {
     user_id: string;

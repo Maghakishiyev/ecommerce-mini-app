@@ -1,5 +1,5 @@
 import { Response } from 'express';
-import { authCheck, ReqWithUser } from '@/middleware/authCheck';
+import { authCheck, ReqWithUser } from '../middleware/authCheck';
 import jwt from 'jsonwebtoken';
 
 // Mock the jwt and config modules

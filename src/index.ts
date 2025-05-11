@@ -3,10 +3,10 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 import helmet from 'helmet';
 import { dbConnection } from './db';
-import authRoutes from '@/routes/AuthRoutes';
-import productRoutes from '@/routes/ProductRoutes';
-import orderRoutes from '@/routes/OrderRoutes';
-import cartRoutes from '@/routes/CartRoutes';
+import authRoutes from '../routes/AuthRoutes';
+import productRoutes from '../routes/ProductRoutes';
+import orderRoutes from '../routes/OrderRoutes';
+import cartRoutes from '../routes/CartRoutes';
 
 dotenv.config();
 

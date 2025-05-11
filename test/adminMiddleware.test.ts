@@ -1,4 +1,4 @@
-import { isAdmin } from '@/middleware/adminMiddleware';
+import { isAdmin } from '../middleware/adminMiddleware';
 
 describe('adminMiddleware Middleware', () => {
     it('should call next function', () => {

@@ -1,4 +1,4 @@
-import { addCartItem } from '@/controllers/CartController';
+import { addCartItem } from '../controllers/CartController';
 
 describe('CartController.test.ts Controller', () => {
     it('should handle requests correctly', () => {

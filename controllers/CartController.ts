@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { Cart } from '@/models/cart/model';  
-import { validateCartItem } from '@/routes/CartRoutes/helpers/validateCart'; 
+import { Cart } from '../models/cart/model';  
+import { validateCartItem } from '../routes/CartRoutes/helpers/validateCart'; 
 
 export const getCart = async (req: Request, res: Response) => {
     try {
